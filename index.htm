@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>极速云CDN节点</title>
+    <style>
+        /* 基础样式 */
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2980b9;
+            --text-color: #333;
+            --light-bg: #f9f9f9;
+            --border-color: #e0e0e0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        /* 容器样式 */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        /* 卡片样式 */
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        /* 图标样式 - 使用CSS绘制 */
+        .icon-cloud {
+            width: 80px;
+            height: 60px;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+        
+        .icon-cloud:before, .icon-cloud:after {
+            content: '';
+            position: absolute;
+            background: var(--primary-color);
+            border-radius: 50%;
+        }
+        
+        .icon-cloud:before {
+            width: 60px;
+            height: 60px;
+            left: 5px;
+            top: 5px;
+        }
+        
+        .icon-cloud:after {
+            width: 40px;
+            height: 40px;
+            left: 35px;
+            top: 15px;
+            box-shadow: 
+                -30px -10px 0 10px var(--primary-color),
+                -50px 10px 0 5px var(--primary-color);
+        }
+        
+        /* 标题样式 */
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        
+        /* 内容样式 */
+        .content {
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        
+        /* 节点列表 */
+        .nodes {
+            text-align: left;
+            margin: 25px 0;
+            background: var(--light-bg);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .node-item {
+            padding: 8px 0;
+            border-bottom: 1px dashed var(--border-color);
+            display: flex;
+            align-items: center;
+        }
+        
+        .node-item:last-child {
+            border-bottom: none;
+        }
+        
+        .node-icon {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        /* 联系信息 */
+        .contact {
+            margin-top: 20px;
+            font-size: 0.95rem;
+            color: #666;
+        }
+        
+        .contact a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            .content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="icon-cloud"></div>
+            <h1>极速云CDN节点</h1>
+            <div class="content">
+                尊敬的用户您好，本域名为极速云平台的CDN节点域名，您可能是意外访问，本域名不直接对用户提供服务请谅解，谢谢。
+            </div>
+            
+            <div class="nodes">
+                <div class="node-item">
+                    <span class="node-icon"></span>
+                    <span>cdn.hkts.dpdns.org</span>
+                </div>
+                <div class="node-item">
+                    <span class="node-icon"></span>
+                    <span>cdn2.hkts.dpdns.org</span>
+                </div>
+                <div class="node-item">
+                    <span class="node-icon"></span>
+                    <span>cdn.jsclo.top</span>
+                </div>
+            </div>
+            
+            <div class="contact">
+                申请CDN资源缓存节点服务: <a href="mailto:2895881250@qq.com">2895881250@qq.com</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2026 极速云平台 版权所有
+    </footer>
+    
+    <!-- 外部资源使用指定域名加载 -->
+    <script src="https://js.szczk.top/analytics.js"></script>
+</body>
+</html>
