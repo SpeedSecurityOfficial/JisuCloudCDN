@@ -23,7 +23,7 @@
             "Patch": "No",
             "Must_download": "No",
             "Type": "WindowsAPP",
-            "Installation_location": "C:\Users\JiSuCloud\Downloads\",
+            "Installation_location": "C:/Users/JiSuCloud/Downloads/",
             "Run": "WeChatWin_4.1.6.exe",
             "download_URL": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin_4.1.6.exe",
             "Update_Time": "2026.01.20",
@@ -32,3 +32,4 @@
         }
     ]
 }
+
