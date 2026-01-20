@@ -14,5 +14,21 @@
             "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
-    ]
+    ],
+    "微信x64位": [
+        {
+            "ID": "4.1.6",
+            "Text": "微信 Windows 版,由微信官方提供下载，该软件已经过极速安全检测！",
+            "System": "Windows7+",
+            "Patch": "No",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "C:\Users\JiSuCloud\Downloads\",
+            "Run": "WeChatWin_4.1.6.exe",
+            "download_URL": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin_4.1.6.exe",
+            "Update_Time": "2026.01.20",
+            "MD5": "a15327a94591c99f16e0e56c4423cdaa",
+            "SHA256": "30bcfd5831f08cae1ecbdcb04189c9fd5685995236633a9a7e32e2b160df8ded"
+        }
+    ],
 }
