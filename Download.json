@@ -64,6 +64,183 @@
             "SHA256": "379cdef09401abfaaad298b9fc1876f054b7db4cdc0fa00708174427a420fe01",
             "Update_Time": "2026.01.20"
         }
-    ]
+    ],
+    "QQ（NT）(64位)": [
+        {
+            "ID": "9.9.26",
+            "Text": "1、基于QQNT技术架构全面升级，使用操作更加流畅快捷；\n2、全新UI设计，界面更加简约轻盈； 3、消息页面三栏式设计，查看信息更加流畅； 4、多人语音视频聊天，沟通无极限； 5、还有更多便捷小功能，欢迎下载体验。",
+            "System": "Windows 7(SP1)及更高版本",
+            "Developer": "深圳市腾讯计算机系统有限公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "QQ_9.9.26_260116_x64_01.exe",
+            "download_URL": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.26_260116_x64_01.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "54076d6a8a59136e8b941a5e1d564959",
+            "SHA256": "2297b1deacd8481cd259717dce1431168bc660d737722552a8a64d36b5cbe738",
+            "Update_Time": "2026.01.16"
+        }
+    ],
+    "QQ（NT）(32位)": [
+        {
+            "ID": "9.9.26",
+            "Text": "1、基于QQNT技术架构全面升级，使用操作更加流畅快捷；\n2、全新UI设计，界面更加简约轻盈； 3、消息页面三栏式设计，查看信息更加流畅； 4、多人语音视频聊天，沟通无极限； 5、还有更多便捷小功能，欢迎下载体验。",
+            "System": "Windows 7(SP1)及更高版本",
+            "Developer": "深圳市腾讯计算机系统有限公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "QQ_9.9.26_260116_x86_01.exe",
+            "download_URL": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.26_260116_x86_01.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "82ea18945a18e0cfcecd26487a81220f",
+            "SHA256": "9c2492cdcf278ef9fc794f2cef50b6a2400db1732e4f24aa997a5598c1ab4f23",
+            "Update_Time": "2026.01.20"
+        }
+    ],
+    "QQ音乐": [
+        {
+            "ID": "22.0.1",
+            "Text": "QQ音乐是腾讯公司推出的一款网络音乐服务产品,海量音乐在线试听、新歌热歌在线首发、歌词翻译、手机铃声下载、高品质无损音乐试听、海量无损曲库、正版音乐下载、空间背景音乐设置、MV观看等,是互联网音乐播放和下载的优选。",
+            "System": "Windows 7及更高版本",
+            "Developer": "腾讯公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "QQMusic_Setup_2201.exe",
+            "download_URL": "https://c.y.qq.com/cgi-bin/file_redirect.fcg?bid=dldir&file=ecosfile%2Fmusic_clntupate%2Fpc%2Fother%2FQQMusic_Setup_2201.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "1f4f978848c1be38285cac079ae635f5",
+            "SHA256": "a17543e02bacf7525587bd47b337dabf07107a809ea4092d0af1327d3738d9ae",
+            "Update_Time": "2025.12.05"
+        }
+    ],
+    "QQ怀旧版": [
+        {
+            "ID": "9.7.25.29417",
+            "Text": "QQ怀旧版",
+            "System": "Windows XP及更高",
+            "Developer": "腾讯公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "QQ9.7.25.29417.exe",
+            "download_URL": "https://dldir1v6.qq.com/qqfile/qq/PCQQ9.7.25/QQ9.7.25.29417.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "b9221c55d77c3d5afa74d24df9c92b31",
+            "SHA256": "804a72f08e692a6317abb31445990e4ddc66dbc163967b5d0c4db360b250ae05",
+            "Update_Time": "2026.01.20"
+        }
+    ],
+    "企业微信": [
+        {
+            "ID": "5.0.3.6005",
+            "Text": "企业微信是腾讯微信团队为企业打造的专业办公管理工具，与微信一致的沟通体验，丰富免费的OA应用，并与微信消息、小程序、微信支付等互通，助力企业高效办公和管理。全面安全保障，国际权威认证，银行级别加密水平，保障企业数据安全。",
+            "System": "Windows 7及更高",
+            "Developer": "腾讯微信",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "WeCom_5.0.3.6005.exe",
+            "download_URL": "https://dldir1.qq.com/wework/work_weixin/WeCom_5.0.3.6005.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "28d2cea8c90255d43361b7f8869c06dc",
+            "SHA256": "f9739183d0ed67655f914268b2aa1354d3e43ae14f73b0ba17b15af520963c68",
+            "Update_Time": "2026.01.20"
+        }
+    ],
+    "搜狗拼音输入法": [
+        {
+            "ID": "15.12d",
+            "Text": "【多元输入方式】支持拼音、双拼、笔画、手写、语音、跨屏输入等多种输入方式，轻松应对办公、学习、游戏全场景！ 【专属超大词库】覆盖行业术语、网络热梗、诗词名句，让输入词汇更精准。 【输入即刻搜索】等号触发问答，划词唤醒解析，热点百科秒出答案，复杂概念一搜即通！知识获取快人一步！ 【AI智能小助手】智能润色、精准纠错、多语言翻译，长文本秒变清晰框架，轻松提升办公效率！ 【趣味社交装备】热梗表情包、魔性GIF、趣味颜文字，精准适配聊天氛围，日常调侃、职场沟通都能轻松传递情绪。 【精美键盘装扮】千万用户点赞的皮肤、鼠标特效等你来Pick！多种风格、炫酷动效、自由定制，畅享视觉盛宴，让你哇哦不停！ 【可爱电子宠物】领养专属AI宠物，提供满满的情绪价值，陪聊、陪玩、陪摸鱼。让你上班也能“带薪养宠”。",
+            "System": "Windows XP及更高",
+            "Developer": "北京搜狗信息服务有限公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "sogou_pinyin_guanwang_15.12d.exe",
+            "download_URL": "https://ime-sec.gtimg.com/202601201856/5dd35727bafef4c77352db0a89fed2b7/pc/sogou_pinyin_guanwang_15.12d.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "ad727bd2fecc4fcd2013c35f8aafc323",
+            "SHA256": "5e153e2fbde89a57c43db3be2f0bf9bb8128be92ab494bc422f24a7b0cf8b19e",
+            "Update_Time": "2026.01.20"
+        }
+    ],
+    "搜狗五笔输入法": [
+        {
+            "ID": "5.5f",
+            "Text": "搜狗五笔输入法具有免费、兼容性好等优点，支持 86 版、98 版、新世纪版和自定义五笔方案；搜狗五笔输入法兼容搜狗拼音的细胞词库和皮肤，支持随身词库，五笔 + 拼音、纯五笔、纯拼音多种模式的可选，使得输入适合更多人群。",
+            "System": "Windows XP及更高",
+            "Developer": "北京搜狗信息服务有限公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "sogou_wubi_5.5f.exe",
+            "download_URL": "https://ime-sec.gtimg.com/202601201858/1eb82d6f0416153d4a268f090ea69e7b/pc/dl/gzindex/1767172893/sogou_wubi_5.5f.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "692bfc502cb513bdc5933021789353dc",
+            "SHA256": "83fc7fc964a7399dcf109ae8f71e0586ac4fe1bb42af33eed55a343cf6f4eb05",
+            "Update_Time": "2025.12.31"
+        }
+    ],
+    "微信输入法": [
+        {
+            "ID": "1.4.3",
+            "Text": "微信输入法是微信官方出品的中文输入法，提供高效的输入体验、精准的推荐策略、多元的创新玩法。",
+            "System": "Windows 7及以上",
+            "Developer": "深圳市腾讯计算机系统有限公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "wetype_installer_official_p_48_2.exe",
+            "download_URL": "https://download.z.weixin.qq.com/app/win/wetype_installer_official_p_48.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "9dfe0e52d2da4044e04be20488f2fd81",
+            "SHA256": "4c4df7cc69a4ae4fd2f2a19633999d31b6e06add348629fbf1f07716ca6971b2",
+            "Update_Time": "2025.12.05"
+        }
+            ]
 
 }
+
