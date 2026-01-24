@@ -351,28 +351,6 @@
             "Update_Time": "2026.01.23"
         }
     ],
-    "FileZilla": [
-        {
-            "ID": "26.01.23.1",
-            "Text": "应用描述",
-            "System": "Windows10+",
-            "Developer": "开发者名称",
-            "old": "12+",
-            "Patch": "No",
-            "Plan": "未加入",
-            "Must_download": "No",
-            "Type": "WindowsAPP",
-            "Installation_location": "Unspecified",
-            "Run": "app.exe",
-            "download_URL": "https://example.com/app.exe",
-            "Update_Time": "2026.01.23",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "Download": "y",
-            "Message": "Null",
-            "License": "Free"
-        }
-    ],
     "Internet Download Manager": [
         {
             "ID": "6.42.58",
@@ -415,6 +393,160 @@
             "MD5": "e76d2a7b04df68e85fc3a84178fe4f65",
             "SHA256": "eeb30b3990211dc28e6a7250c0fd58b89e2a562dfbefecfbdc165007e869ca94",
             "Update_Time": "2026.01.23"
+        }
+    ],
+    "PotPlayer": [
+        {
+            "ID": "26.01.14.0",
+            "Text": "与KmPlayer齐名的一款播放器。它基本上继承了KMPlayer方便的滤镜以及外挂式的管理系统，同时简化了内部的解码器体系，现在基本依靠 Bass 和 FFmpeg 系滤镜解决播放问题，同时Potplayer还完成了KMP无法实现的DXVA硬件解码以及多线程解码功能，使您能更流畅的观看高清影片。",
+            "System": "Unknown",
+            "Developer": "",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "PotPlayerSetup64.exe",
+            "download_URL": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "de2c71c0d877a10089e67a6044265c84",
+            "SHA256": "8be7bfe57308a5f62191b10f2d25f7bf85e459f9963bd129b61cff9faa08fcae",
+            "Update_Time": "2026.01.20"
+        }
+    ],
+    "EV录屏": [
+        {
+            "ID": "5.4.7",
+            "Text": "EVCapture是一款国产免费的视频录制工具+直播推流软件。是的，不但可以录制视频，还可以直接推流直播。它与目前市面上类似视频录制直播软件最大的不同点在于其完全免费（在使用过程中不收取任何费用）；无广告界面；输出视频文件体积极小。EV capture集视频录制和Rtmp网络串流为一体，低内存，低cpu消耗，支持市面所有主流系统。",
+            "System": "Unknown",
+            "Developer": "湖南一唯信息科技有限公司",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "EVCapture_v5.4.7.exe",
+            "download_URL": "https://ctpublic.ieway.cn/public/download/EVCapture_v5.4.7.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "8505c39be6b220dee0a1d299cc9a70ec",
+            "SHA256": "adfa9e51ef2c8b368ff47c97725473a3978c3412f44999517b8be36f59ae6c85",
+            "Update_Time": "2026.01.16"
+        }
+    ],
+    "VLC Player": [
+        {
+            "ID": "3.0.23",
+            "Text": "vlcplayer播放器是一款免费自由且开源的跨平台多媒体播放器，能够直接播放绝大多数格式的视频和音频且无需转换，并支持通过Box、iCloudDrive、Dropbox、GoogleDrive、OneDrive、iTunes、直接下载链接、WiFi 共享等方式同步文件，还能直接播放SMB、FTP、SFTP、NFS、UPnP/DLNA媒体服务器以及互联网上的流媒体。vlcplayer播放器还拥有高级字幕格式、多轨道音频、控制回放速度以及Chromecast渲染等功能。",
+            "System": "Unknown",
+            "Developer": "",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "vlc-3.0.23-win64.exe",
+            "download_URL": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "f711b3aee7c805d52ab28fe53440e35f",
+            "SHA256": "20ad191348684b470ddc4e05204316f3d8e39655f412b3e392a0eef97639daaf",
+            "Update_Time": "2026.01.01"
+        }
+    ],
+    "KMPlayer": [
+        {
+            "ID": "2025.12.22.13",
+            "Text": "KMPlayer是基于KMPlayer官方版基础上，通过增加第三方插件、解码器实现的增强版，能对各种流行视频、HDTV实现更佳的支持和回放。",
+            "System": "Unknown",
+            "Developer": "",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "KMP64_2025.12.22.13.exe",
+            "download_URL": "https://dn.kmplayer.com/Dn/kmp64x/KMP64_2025.12.22.13.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "b44a27538d664fb7325ebe4524a21e2b",
+            "SHA256": "123c5cbd391482c9033881533a818de8207e9d2fdeb1635be8e480bc8f5fe6a6",
+            "Update_Time": "2025.12.22"
+        }
+    ],
+    "完美解码": [
+        {
+            "ID": "20250101",
+            "Text": "完美解码是一款为众多影视发烧友精心打造的专业高清播放器。超强HDTV支持，画质远超主流播放器！\n解码设置中心\"预设多种解码模式，使用默认模式即可获得良好播放效果，有经验的用户更可自行调整、切换分离器/解码器，某些特殊功能如DTS-CD播放、DVD软倍线、HDTV硬件加速等都能简单实现。 完美支持各种流行多媒体文件流畅播放，更可配合压制工具进行多种多媒体格式相互转换。",
+            "System": "Unknown",
+            "Developer": "奥英数创（北京）科技有限公司",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "PureCodec20260101.exe",
+            "download_URL": "https://dl-t1.wmzhe.com/13/13163/PureCodec20260101.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Unknown",
+            "MD5": "caf8baee2b374643f97349902287e698",
+            "SHA256": "1dd88875fbbf7c678fc477523292625ab2715f5851988bf47c8ad3c56782131c",
+            "Update_Time": "2026.01.01"
+        }
+    ],
+    "SMPlayer": [
+        {
+            "ID": "25.6.0",
+            "Text": "SMPlayer 是个适用于 Windows 和 Linux 的免费媒体播放器， 内置解码器，可以播放几乎所有格式的视频和音频文件。 无需再安装任何外部解码器。 只要安装了 SMPlayer， 你就能够播放所有的格式，不用再费事查找安装解码包\n\nSMPlayer 最有趣的一个功能是：它会记住您播放过的所有文件的设置。 因此，当您在看一部电影时， 但有事得走... 不用担心，当您再次打开那部电影时， 它将恢复到您离开时的播放位置，并使用相同的设置： 音轨、字幕、音量...\n\nSMPlayer 是个用于屡获殊荣的 MPlayer 的图形化界面 (GUI)， 它能够播放几乎所有已知的视频和音频格式。 但除了提供MPLayer的大多数常用命令外 SMPlayer也有一些好玩的特性，例如 支持播放Youtube视频和下载字幕。",
+            "System": "Unknown",
+            "Developer": "",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "smplayer-25.6.0-x64-unsigned.exe",
+            "download_URL": "https://download.dappcdn.com/expiretime=1769254103;badurl=aHR0cHM6Ly9kYXBwY2RuLmNvbS9wcm90ZWN0ZWQv/0f03360780b4011fb96424994d64ad8f279e0861b76bf14264a99910ac37666b/smplayer/smplayer-25.6.0-x64-unsigned.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Unknown",
+            "MD5": "02ab4c3ceca6f0c35b1798711167e91d",
+            "SHA256": "e7a95741331b575dd457f3edd0543ba6e1c056777f65382223a259da2c3286ef",
+            "Update_Time": "2025.06.01"
+        }
+    ],
+    "芯象导播": [
+        {
+            "ID": "25.10.10.6",
+            "Text": "芯象导播是一款专业导播软件，通过微赞专业的音视频处理核心技术研发，现已支持多种输入源、炫酷字幕水印制作、多路调音台、多机位实时切换、画中画分屏、连麦互动等，通过多路机位将更多内容聚合，并统一输出，实现专业级直播效果。",
+            "System": "Unknown",
+            "Developer": "广州芯象科技有限公司",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "sinsam_setup.25.10.10.6.exe",
+            "download_URL": "https://dw.sinsam.com/sinsam/software/sinsam_setup.25.10.10.6.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Shareware",
+            "MD5": "2f9f564db431bb0c33ee4a64b1f142f2",
+            "SHA256": "3c77d8fab6a0e7972b130dcdf405e6b9af5fc80799ba60c9f64b081e8493f1f5",
+            "Update_Time": "2025.10.10"
         }
     ]
 }
