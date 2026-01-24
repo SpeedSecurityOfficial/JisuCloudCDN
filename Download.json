@@ -240,7 +240,181 @@
             "SHA256": "4c4df7cc69a4ae4fd2f2a19633999d31b6e06add348629fbf1f07716ca6971b2",
             "Update_Time": "2025.12.05"
         }
-            ]
-
+    ],
+    "讯飞输入法": [
+        {
+            "ID": "3.0.1746",
+            "Text": "科大讯飞全新推出的全能输入法，支持语音、手写、键盘输入，语音识别率高，手写输入便捷，拼音输入稳定。无广告无弹窗，绿色安全的电脑输入法！思想有多快，输入就有多快。讯飞输入法，创造精彩输入体验！",
+            "System": "Windows10及更高版本",
+            "Developer": "科大讯飞股份有限公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "",
+            "Run": "iFlyIME_Setup_3.0.1746.exe",
+            "download_URL": "https://download.voicecloud.cn/200ime/iFlyIME_Setup_3.0.1746.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "1a4887560ed710bb4f70579db0f9c8ee",
+            "SHA256": "733fb254abe55bf6e8b0d7ad9800e6108ed6d38ec7d79333a7083d904ee80b8f",
+            "Update_Time": "2026.01.23"
+        }
+    ],
+    "百度输入法": [
+        {
+            "ID": "6.1.13.8",
+            "Text": "基于文心一言，打造全能AI助理「超会写」，写作、聊天、搜索，全方位辅助创作\n随时随地，一键唤醒超会写\n写作助手，一键帮你续写、润色、写全文、写大纲\n论文助手，从研究方向选择到论文定稿，全方位为你保驾护航\n翻译助手，文献翻译、对话翻译、语法纠错，中外文互译一站式解决\n高情商沟通，你的互联网嘴替，轻松应对各类社交场合\nAI问问，语义检索技术与大模型深度结合，不止是搜索引擎，更是你的全能助手",
+            "System": "WindowsXP及更高版本",
+            "Developer": "百度（中国）有限公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "",
+            "Run": "BaiduPinyinSetup_6.1.13.8.exe",
+            "download_URL": "https://imeres.baidu.com/imeres/imeres/ime-res/guanwang/dl/online/BaiduPinyinSetup_6.1.13.8.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "71b29035741a35a7beb9745c92abb008",
+            "SHA256": "079525f8caff9f0a1f85499e60ac615801d600917b23fec3a3e1f9019edcf2a2",
+            "Update_Time": "2026.01.23"
+        }
+    ],
+    "手心输入法": [
+        {
+            "ID": "26.01.23.1",
+            "Text": "应用描述",
+            "System": "Windows10+",
+            "Developer": "开发者名称",
+            "old": "12+",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "app.exe",
+            "download_URL": "https://example.com/app.exe",
+            "Update_Time": "2026.01.23",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free"
+        }
+    ],
+    "夸克浏览器": [
+        {
+            "ID": "6.2.5.697",
+            "Text": "夸克AI浏览器全面融合千问AI助手，实现「操作系统级」的 全局AI体验。\n1、内置千问AI助手：使用阿里最强Qwen大模型构建，模型更领先、回答更聪明；\n2、千问AI套件：侧边栏、划词、截屏都可随时问AI，帮你进行内容总结、解读；还能多轮追问。\n3、智能浏览体验 ：帮你智能管理标签，无广告界面更清爽；PDF直接打开，在线编辑；文字、文档、网页、大文件跨端传输，接着看接着改。\n4、夸克网盘：6T超大空间，超速下载，100G大文件无损快速传输；电脑资料安心存，自动备份 超级播放器，免费5倍速。",
+            "System": "Windows7及更高版本",
+            "Developer": "阿里巴巴",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "",
+            "Run": "QuarkPC_V6.2.5.697_pc_pf30002_(zh-cn)_releasemini_(Build2655854-1001-x64).exe",
+            "download_URL": "https://umcdn.quark.cn/download/37212/quarkpc/pcquark@homepage_oficial_mini/QuarkPC_V6.2.5.697_pc_pf30002_(zh-cn)_releasemini_(Build2655854-1001-x64).exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "6cfc32eceae4665eaeacc9008bd53a07",
+            "SHA256": "06109d30ea9877cb851517dcc3226312e516c0f7c7494393698136aade2e06e3",
+            "Update_Time": "2026.01.21"
+        }
+    ],
+    "夸克网盘": [
+        {
+            "ID": "3.23.2",
+            "Text": "夸克网盘是夸克推出的一款云服务产品,功能包括云存储、高清看剧、文件在线解压、PDF一键转换等。通过夸克网盘可随时随地管理和使用照片、文档、手机资料,目前支持Android、iOS、PC、iPad。",
+            "System": "Windows7及更高版本",
+            "Developer": "阿里巴巴",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "",
+            "Run": "QuarkCloudDrive_v3.23.2_release_%28Build2383348-20250821173039%29.exe",
+            "download_URL": "https://pdds-c1-cdn.quark.cn/82-4/stfile/2508/07c2fd5b8db1f445335fbae04c3dd54e/QuarkCloudDrive_v3.23.2_release_%28Build2383348-20250821173039%29.exe?auth_key=1769761592-0-0-e175025c0943a1ae398cecc728864b45",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "07c2fd5b8db1f445335fbae04c3dd54e",
+            "SHA256": "13fd42b7b04ae220785082e5d87a4450a7c23192a22cdada9fcf9865a7c27056",
+            "Update_Time": "2026.01.23"
+        }
+    ],
+    "FileZilla": [
+        {
+            "ID": "26.01.23.1",
+            "Text": "应用描述",
+            "System": "Windows10+",
+            "Developer": "开发者名称",
+            "old": "12+",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "app.exe",
+            "download_URL": "https://example.com/app.exe",
+            "Update_Time": "2026.01.23",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free"
+        }
+    ],
+    "Internet Download Manager": [
+        {
+            "ID": "6.42.58",
+            "Text": "IDM (Internet Download Manager)是一款下载工具，可以提升你的下载速度最多达5倍，支持多款浏览器，包括IE、Safari、谷歌浏览器、火狐、MSN还有opera，通过自带的添加浏览器功能可以支持所有浏览器。\n\n此程序具有动态档案分割、多重下载点技术，而且它会重复使用现有的联机，而不需再重新联机登入一遍。聪明的in-speed技术会动态地将所有设定应用到某种联机类型，以充分利用下载速度。 \n\nIDM (Internet Download Manager)支持下载队列、防火墙、代理服务器和映射服务器、重新导向、cookies、需要验证的目录，以及各种不同的服务器平台。此程序紧密地与Internet Explorer和NetscapeCommunicator结合，自动地处理你的下载需求。此程序还具有下载逻辑最佳化功能、检查病毒，以及多种偏好设定。",
+            "System": "Windows10及更高版本",
+            "Developer": "Tonec Inc.",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "idman642build58.exe",
+            "download_URL": "https://download2.internetdownloadmanager.com/idman642build58.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Shareware",
+            "MD5": "dae8f0b907cf8eaca818217f5c2681a3",
+            "SHA256": "ecde2f3e0df72061db4c9a871ba8d21d2fe08e85aa74fef56c764f1c3f02f8e8",
+            "Update_Time": "2026.01.23"
+        }
+    ],
+    "八爪鱼采集器": [
+        {
+            "ID": "8.7.7",
+            "Text": "八爪鱼采集器是一款专业的网页数据采集工具，主要用于从互联网上采集各类网页数据。它具有以下特点和优势：\n\n1. 强大的功能：八爪鱼采集器提供了多种数据采集功能，包括文字、图片、视频等多种格式。并且支持智能识别和灵活的自定义采集规则设置，可以满足不同用户的采集需求。\n\n2. 简单易用的操作界面：八爪鱼采集器的操作界面设计简洁直观，使用户无需编程和代码知识就能够轻松上手。只需要简单的几步操作，就可以完成数据采集任务。\n\n3. 丰富的模板库：八爪鱼采集器拥有海量的模板库，涵盖了各类热门网站的采集模板。用户可以直接使用这些模板，进行简单的参数修改，即可快速启动采集任务，节省了用户的时间和精力。\n\n4. 高效稳定的采集服务：八爪鱼采集器拥有大量的云服务器，提供高效稳定的采集服务。用户可以放心地进行大规模的数据采集，不用担心服务器的性能和稳定性问题。\n\n5. 广泛的应用场景：八爪鱼采集器的用户群体涵盖了各行各业，包括学生、教师、电商商家、自媒体工作者、数据分析人员、招投标从业人员等。它广泛应用于科学研究、市场研究、舆情监控、招投标等多个领域，为用户提供了强大的数据支持。",
+            "System": "Windows7及更高版本",
+            "Developer": "深圳数阔信息技术有限公司",
+            "old": "",
+            "Patch": "No",
+            "Plan": "未加入",
+            "Must_download": "No",
+            "Type": "WindowsAPP",
+            "Installation_location": "Unspecified",
+            "Run": "Octopus%20Setup%208.7.7.exe",
+            "download_URL": "https://download.bazhuayu.com/clientsetup8/Octopus%20Setup%208.7.7.exe",
+            "Download": "y",
+            "Message": "Null",
+            "License": "Free",
+            "MD5": "e76d2a7b04df68e85fc3a84178fe4f65",
+            "SHA256": "eeb30b3990211dc28e6a7250c0fd58b89e2a562dfbefecfbdc165007e869ca94",
+            "Update_Time": "2026.01.23"
+        }
+    ]
 }
-
