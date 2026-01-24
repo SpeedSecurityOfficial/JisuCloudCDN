@@ -354,7 +354,7 @@
     "Internet Download Manager": [
         {
             "ID": "6.42.58",
-            "Text": "IDM (Internet Download Manager)是一款下载工具，可以提升你的下载速度最多达5倍，支持多款浏览器，包括IE、Safari、谷歌浏览器、火狐、MSN还有opera，通过自带的添加浏览器功能可以支持所有浏览器。\n\n此程序具有动态档案分割、多重下载点技术，而且它会重复使用现有的联机，而不需再重新联机登入一遍。聪明的in-speed技术会动态地将所有设定应用到某种联机类型，以充分利用下载速度。 \n\nIDM (Internet Download Manager)支持下载队列、防火墙、代理服务器和映射服务器、重新导向、cookies、需要验证的目录，以及各种不同的服务器平台。此程序紧密地与Internet Explorer和NetscapeCommunicator结合，自动地处理你的下载需求。此程序还具有下载逻辑最佳化功能、检查病毒，以及多种偏好设定。",
+            "Text": "IDM (Internet Download Manager)是一款下载工具，可以提升你的下载速度最多达5倍，支持多款浏览器，包括IE、Safari、谷歌浏览器、火狐、MSN还有opera，通过自带的添加浏览器功能可以支持所有浏览器。",
             "System": "Windows10及更高版本",
             "Developer": "Tonec Inc.",
             "old": "",
@@ -549,4 +549,5 @@
             "Update_Time": "2025.10.10"
         }
     ]
+
 }
