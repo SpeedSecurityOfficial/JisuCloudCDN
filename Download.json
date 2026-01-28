@@ -548,5 +548,181 @@
             "SHA256": "3c77d8fab6a0e7972b130dcdf405e6b9af5fc80799ba60c9f64b081e8493f1f5",
             "Update_Time": "2025.10.10"
         }
+    ],
+    "腾讯视频": [
+        {
+            "ID": "11.153.6518.0",
+            "Text": "腾讯视频客户端是腾讯视频为用户量身打造的移动网络视频播放客户端，腾讯视频采用轻量级的界面设计，提供高清流畅的播放服务，支持分享视频到QQ和微信，内容涵盖最新最热的电影、电视剧、影剧、美剧、韩剧、微电影、综艺、动漫、新闻、娱乐、体育、NBA、直播、搞笑、音乐、MV、游戏、比赛、直播、LOL、电竞等特色频道。",
+            "System": "Windows 7及更高版本",
+            "Developer": "深圳市腾讯计算机系统有限公司",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "TencentVideo11.153.6518.0.exe",
+            "download_URL": "https://dldir1.qq.com/qqtv/TencentVideo11.153.6518.0.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "df1e4fa7fe5f6ecd29e28bfa80ddf830",
+            "SHA256": "a73e0c04136a0683ee0b59bc26c6b4f478178a8596ab381250b40d9785feeaeb",
+            "Update_Time": "2026.01.28"
+        }
+    ],
+    "爱奇艺": [
+        {
+            "ID": "14.1.5.9786",
+            "Text": "爱奇艺Windows客户端汇聚了电视剧、电影、综艺、动漫、少儿、纪录片、体育等热门内容，持续快速更新。视频播放清晰流畅，功能强大且操作便捷，致力于为用户提供“悦享品质”的卓越观影体验。",
+            "System": "Windows 7及更高版本",
+            "Developer": "北京爱奇艺科技有限公司",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "IQIYIsetup_z42.exe",
+            "download_URL": "https://dl-static.iqiyi.com/hz/IQIYIsetup_z42.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "4392387f4a40e474f17351c653b5bb0a",
+            "SHA256": "7143854019a772df76f4026940078f35f4ca91add4fd41cd00d690b4fe2cee28",
+            "Update_Time": "2026.01.28"
+        }
+    ],
+    "优酷视频": [
+        {
+            "ID": "9.2.70.1001",
+            "Text": "优酷Windows客户端，聚焦全网精品内容，提供电影、电视剧、综艺、动漫、少儿等海量高清视频在线观看\n提供优质Windows本地视频播放器，同时支持优酷缓存视频和电脑本地视频播放\n支持4K画质，畅享极致视觉盛宴\n支持优酷账号及第三方登录，视频云记录，多屏同步看",
+            "System": "Windows 7及更高版本",
+            "Developer": "阿里巴巴文化娱乐集团",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "youkuclient_setup_9.2.70.1001.exe",
+            "download_URL": "https://pcclient.download.youku.com/iku-win-release/youkuclient_setup_9.2.70.1001.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "59471f83a7f6cd88dca527f8c19930af",
+            "SHA256": "8dc2b476893006b963736ccd684bd0f8d138bb9ca25f1ac5567776f09ae1d131",
+            "Update_Time": "2025.12.29"
+        }
+    ],
+    "芒果TV": [
+        {
+            "ID": "6.9.0.0",
+            "Text": "芒果TV旗下官方视频客户端产品，简洁外观、丰富内容；同时支持在线及本地播放；提供独家节目的直播及点播，另有小窗播放、极速下载、蓝光画质等功能让用户感受贴心的播放体验。",
+            "System": "Windows 7及更高版本",
+            "Developer": "湖南快乐阳光互动娱乐传媒有限公司",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "mgtv-client2-6.9.0.0-mango.exe",
+            "download_URL": "https://download.imgo.tv/app/pc/6.9.0_1.1.50/mgtv-client2-6.9.0.0-mango.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "bfe80f275459bcdecea42bceaefcf06b",
+            "SHA256": "0d5234990a59558381337fd9d112e0046ebe1764581db8164f2f3609ce886d49",
+            "Update_Time": "2026.01.28"
+        }
+    ],
+    "OBS Studio": [
+        {
+            "ID": "32.0.4",
+            "Text": "OBS Studio是一款免费开源的实时流媒体和屏幕录制软件，广泛应用于直播领域。该软件支持高性能的视频/音频捕获和混合，提供多种来源（如窗口捕获、图像、文本等）和无限场景设置。",
+            "System": "Windows 10及更高版本",
+            "Developer": "",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "OBS-Studio-32.0.4-Windows-x64-Installer.exe",
+            "download_URL": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-32.0.4-Windows-x64-Installer.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "01f85d5fd7977929807a1d243e807230",
+            "SHA256": "46a18bce8e2ff662b700c91d340a519376e712fe0af0d335536e4f9fd253f10a",
+            "Update_Time": "2025.12.13"
+        }
+    ],
+    "酷狗音乐": [
+        {
+            "ID": "20.0.90",
+            "Text": "酷狗音乐具备音乐播放、搜索、下载、管理和好友分享等功能，是一款性能卓越、体积“瘦小”、界面炫丽、操作简单的全功能音乐软件；",
+            "System": "Windows 7及更高版本",
+            "Developer": "广州酷狗计算机科技有限公司",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "kugou_release_20090.exe",
+            "download_URL": "https://pcpackagebssdlbigapk.cosama.cn/202601281037/690a4d44920e7b9753e7956bb1989e1f/web/kugou_release_20090.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Shareware",
+            "MD5": "40aeca7e2a9a8b8dbdbf1549210271fe",
+            "SHA256": "17eb8c8a3d36fc720639da38074f10f80db25ac43d78f63f386b2a8d4781707d",
+            "Update_Time": "2025.12.16"
+        }
+    ],
+    "汽水音乐": [
+        {
+            "ID": "2.9.1",
+            "Text": "汽水音乐电脑版是基于移动端汽水音乐APP打造的一款全新的桌面音乐播放器。设计风格同移动端一脉相承，简约有质感。核心功能包括听推荐、歌单、榜单、搜索。登录相同的账号，可实时同步在电脑和手机收藏的音乐和歌单，实现数据互通。为你发现好音乐这件事，我们真的是认真的！",
+            "System": "Windows 10及更高版本",
+            "Developer": "北京抖音科技有限公司",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "SodaMusic-v2.9.1-official-win32_x64.exe",
+            "download_URL": "https://lf-luna-release.qishui.com/obj/luna-release/2.9.1/273418830/SodaMusic-v2.9.1-official-win32_x64.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Free",
+            "MD5": "1528c57a1eec5e93938e87f64ae97c98",
+            "SHA256": "a998fc57b4887d1b0121d82626c85f9314fafae20b998fdfc14af9d3b284a548",
+            "Update_Time": "2026.01.28"
+        }
+    ],
+    "酷我音乐": [
+        {
+            "ID": "9.5.0.0",
+            "Text": "好音质，用酷我。海量无损资源下载，热歌新歌随时听。一键搜索海量曲库，精心打造权威榜单；自动拉取精准歌词及高清专辑图片；便捷的本地音乐管理及播放；流畅的操作，合理的交互设计，更体现酷我以用户体验为中心的设计理念。与此同时还拥有个性换肤，超炫语音搜索及精准音频指纹识别等独特功能，把百万歌曲装进口袋。",
+            "System": "Windows 10及更高版本",
+            "Developer": "",
+            "old": "",
+            "Patch": "",
+            "Plan": "",
+            "Must_download": "",
+            "Type": "",
+            "Installation_location": "",
+            "Run": "kwmusic_web_1.exe",
+            "download_URL": "https://pkgdown.kuwo.cn/2bcc33a0ba31fbae3be98fd7657e7844/69797782/mbox/kwmusic_web_1.exe",
+            "Download": "",
+            "Message": "",
+            "License": "Shareware",
+            "MD5": "176efaf20a40d863b6357358ea5b8ddc",
+            "SHA256": "ec58e4ccc943b48212cb732d88bf48b62caf2c59e38feb43e52c01da93e3d209",
+            "Update_Time": "2025.09.17"
+        }
     ]
 }
