@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>极速云平台 - 表白页面</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+        
+        :root {
+            --primary: #ff4d8d;
+            --secondary: #9c27b0;
+            --dark: #1a1a2e;
+            --light: #f8f9fa;
+            --accent: #00dbde;
+        }
+        
+        body {
+            background: linear-gradient(-45deg, #1a1a2e, #16213e, #0f3460, #1a1a2e);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: var(--light);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        /* 星星背景 */
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        
+        .star {
+            position: absolute;
+            background-color: white;
+            border-radius: 50%;
+            animation: twinkle 3s infinite;
+        }
+        
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+        
+        /* 容器 */
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        /* 头部 */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            object-fit: cover;
+            border: 2px solid var(--primary);
+            box-shadow: 0 0 15px rgba(255, 77, 141, 0.5);
+        }
+        
+        .platform-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .contact-info {
+            text-align: right;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+        
+        /* 主要内容 */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        
+        .title-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .heart-icon {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            animation: heartbeat 1.5s infinite;
+        }
+        
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(255, 77, 141, 0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #ccc;
+            max-width: 600px;
+        }
+        
+        /* 表白内容 */
+        .love-letter {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            width: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .love-letter:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--primary), var(--accent));
+        }
+        
+        .to-person {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            box-shadow: 0 0 20px rgba(255, 77, 141, 0.5);
+        }
+        
+        .to-person h2 {
+            font-size: 2.2rem;
+            color: white;
+        }
+        
+        .to-person p {
+            color: #aaa;
+            font-size: 1.1rem;
+        }
+        
+        .timeline {
+            margin: 30px 0;
+        }
+        
+        .timeline-item {
+            display: flex;
+            margin-bottom: 25px;
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--primary);
+        }
+        
+        .timeline-item:after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 25px;
+            width: 2px;
+            height: calc(100% + 15px);
+            background: rgba(255, 77, 141, 0.5);
+        }
+        
+        .timeline-item:last-child:after {
+            display: none;
+        }
+        
+        .year {
+            font-weight: bold;
+            color: var(--primary);
+            min-width: 80px;
+            font-size: 1.1rem;
+        }
+        
+        .event {
+            flex: 1;
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+        
+        .confession-text {
+            font-size: 1.2rem;
+            line-height: 1.7;
+            margin: 25px 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            border-left: 4px solid var(--accent);
+        }
+        
+        /* 按钮 */
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .btn {
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .accept-btn {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            box-shadow: 0 5px 15px rgba(156, 39, 176, 0.4);
+        }
+        
+        .accept-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(156, 39, 176, 0.6);
+        }
+        
+        .heart-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .heart-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+        
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            width: 100%;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        .signature {
+            color: var(--accent);
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+            
+            .logo-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .contact-info {
+                text-align: center;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .to-person {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .to-person h2 {
+                font-size: 1.8rem;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+            
+            .love-letter {
+                padding: 20px 15px;
+            }
+            
+            .confession-text {
+                font-size: 1.1rem;
+                padding: 15px;
+            }
+        }
+        
+        /* 浮动爱心动画 */
+        .floating-hearts {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .floating-heart {
+            position: absolute;
+            color: var(--primary);
+            font-size: 20px;
+            opacity: 0;
+            animation: floatUp 8s linear infinite;
+        }
+        
+        @keyframes floatUp {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.8;
+            }
+            90% {
+                opacity: 0.6;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 星星背景 -->
+    <div class="stars" id="stars"></div>
+    
+    <!-- 浮动爱心 -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+    
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <div class="logo-section">
+                <img src="https://cdn2.hkts.dpdns.org/Logo.jpg" alt="极速云平台Logo" class="logo" id="logo">
+                <div>
+                    <h2 class="platform-name">极速云平台官方网站</h2>
+                    <p>表白页面</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p>联系我们: admin@hkts.dpdns.org</p>
+                <p>官方代表: 极速云平台官方(张某)</p>
+            </div>
+        </header>
+        
+        <!-- 主要内容 -->
+        <main class="main-content">
+            <div class="title-section">
+                <div class="heart-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h1>一封给你的信</h1>
+                <p class="subtitle">在我心中埋藏已久的感情，今天终于鼓起勇气表达</p>
+            </div>
+            
+            <!-- 表白信内容 -->
+            <div class="love-letter">
+                <div class="to-person">
+                    <img src="https://cdn2.hkts.dpdns.org/Love.jpg" alt="张同学" class="avatar" id="avatar">
+                    <div>
+                        <h2>致张同学</h2>
+                        <p>给我心中最重要的你</p>
+                    </div>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="year">2024年</div>
+                        <div class="event">入学第一次见面，但是因平台原因没有交流</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2025年</div>
+                        <div class="event">逐渐喜欢上了你，你的笑容成为我每天的动力</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2026年</div>
+                        <div class="event">最后一年了，临近中考，我不希望留遗憾</div>
+                    </div>
+                </div>
+                
+                <div class="confession-text">
+                    <p>从第一次见面开始，你就在我心中留下了特别的印象。虽然因为各种原因我们没有太多交流，但每次在校园里看到你，我的心情都会变得明亮起来。</p>
+                    <p style="margin-top: 15px;">你的笑容、你的眼神、你认真学习的样子，都深深吸引着我。我知道现在是我们初中生涯的最后一年，中考即将到来，但我不希望这份感情成为永远的遗憾。</p>
+                    <p style="margin-top: 15px;">所以今天我鼓起勇气，用这种方式向你表达我的心意。无论结果如何，我都希望你能知道，有一个人一直在默默关注着你，欣赏着你。</p>
+                </div>
+                
+                <p style="text-align: center; font-style: italic; color: #ffccdd; font-size: 1.1rem;">
+                    希望你能给我一个机会，让我能在未来继续陪伴你
+                </p>
+            </div>
+            
+            <!-- 互动按钮 -->
+            <div class="action-buttons">
+                <button class="btn accept-btn" id="acceptBtn">
+                    <i class="fas fa-heart"></i> 我接受你的心意
+                </button>
+                <button class="btn heart-btn" id="heartBtn">
+                    <i class="far fa-heart"></i> 感谢你的喜欢
+                </button>
+            </div>
+        </main>
+        
+        <!-- 页脚 -->
+        <footer>
+            <p>本页面由极速云平台官方技术支持</p>
+            <p class="signature">—— 极速云平台官方(张某) 敬上</p>
+            <p style="margin-top: 10px;">© 2026 极速云平台 版权所有</p>
+        </footer>
+    </div>
+
+    <script>
+        // 生成随机星星背景
+        function createStars() {
+            const starsContainer = document.getElementById('stars');
+            const starCount = 150;
+            
+            for (let i = 0; i < starCount; i++) {
+                const star = document.createElement('div');
+                star.classList.add('star');
+                
+                // 随机大小
+                const size = Math.random() * 3 + 1;
+                star.style.width = `${size}px`;
+                star.style.height = `${size}px`;
+                
+                // 随机位置
+                star.style.left = `${Math.random() * 100}vw`;
+                star.style.top = `${Math.random() * 100}vh`;
+                
+                // 随机闪烁延迟
+                star.style.animationDelay = `${Math.random() * 5}s`;
+                
+                starsContainer.appendChild(star);
+            }
+        }
+        
+        // 生成浮动爱心
+        function createFloatingHearts() {
+            const heartsContainer = document.getElementById('floatingHearts');
+            const heartCount = 20;
+            
+            for (let i = 0; i < heartCount; i++) {
+                const heart = document.createElement('div');
+                heart.classList.add('floating-heart');
+                heart.innerHTML = '<i class="fas fa-heart"></i>';
+                
+                // 随机大小
+                const size = Math.random() * 20 + 10;
+                heart.style.fontSize = `${size}px`;
+                
+                // 随机起始位置
+                heart.style.left = `${Math.random() * 100}vw`;
+                
+                // 随机动画延迟和持续时间
+                const delay = Math.random() * 5;
+                const duration = Math.random() * 4 + 6;
+                heart.style.animationDelay = `${delay}s`;
+                heart.style.animationDuration = `${duration}s`;
+                
+                // 随机颜色
+                const colors = ['#ff4d8d', '#9c27b0', '#00dbde', '#ff9a9e'];
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                heart.style.color = color;
+                
+                heartsContainer.appendChild(heart);
+            }
+        }
+        
+        // 按钮交互效果
+        function setupButtons() {
+            const acceptBtn = document.getElementById('acceptBtn');
+            const heartBtn = document.getElementById('heartBtn');
+            
+            acceptBtn.addEventListener('click', function() {
+                this.innerHTML = '<i class="fas fa-check-circle"></i> 谢谢你的接受！';
+                this.style.background = 'linear-gradient(to right, #00b09b, #96c93d)';
+                
+                // 创建庆祝特效
+                createCelebration();
+                
+                // 显示成功消息
+                setTimeout(() => {
+                    alert('太棒了！谢谢你给我这个机会！我会好好珍惜的！');
+                }, 500);
+            });
+            
+            heartBtn.addEventListener('click', function() {
+                this.innerHTML = '<i class="fas fa-heart"></i> 谢谢你告诉我';
+                this.style.background = 'rgba(255, 255, 255, 0.3)';
+                
+                // 显示感谢消息
+                setTimeout(() => {
+                    alert('无论如何，感谢你愿意倾听我的心声。祝你中考顺利，前程似锦！');
+                }, 500);
+            });
+        }
+        
+        // 创建庆祝特效
+        function createCelebration() {
+            const container = document.querySelector('.container');
+            
+            for (let i = 0; i < 30; i++) {
+                const confetti = document.createElement('div');
+                confetti.style.position = 'fixed';
+                confetti.style.width = '10px';
+                confetti.style.height = '10px';
+                confetti.style.background = getRandomColor();
+                confetti.style.borderRadius = '50%';
+                confetti.style.left = `${Math.random() * 100}vw`;
+                confetti.style.top = '-20px';
+                confetti.style.zIndex = '1000';
+                confetti.style.pointerEvents = 'none';
+                
+                document.body.appendChild(confetti);
+                
+                // 动画
+                const animation = confetti.animate([
+                    { transform: 'translateY(0) rotate(0deg)', opacity: 1 },
+                    { transform: `translateY(${window.innerHeight + 20}px) rotate(${Math.random() * 360}deg)`, opacity: 0 }
+                ], {
+                    duration: Math.random() * 1000 + 1000,
+                    easing: 'cubic-bezier(0.215, 0.61, 0.355, 1)'
+                });
+                
+                // 动画结束后移除元素
+                animation.onfinish = () => {
+                    confetti.remove();
+                };
+            }
+        }
+        
+        function getRandomColor() {
+            const colors = ['#ff4d8d', '#9c27b0', '#00dbde', '#4CAF50', '#FFC107', '#2196F3'];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            createStars();
+            createFloatingHearts();
+            setupButtons();
+            
+            // 添加鼠标移动特效
+            document.addEventListener('mousemove', function(e) {
+                const hearts = document.querySelectorAll('.floating-heart');
+                hearts.forEach(heart => {
+                    const x = (e.clientX / window.innerWidth) * 10;
+                    const y = (e.clientY / window.innerHeight) * 10;
+                    heart.style.transform += ` translate(${x}px, ${y}px)`;
+                });
+            });
+        });
+    </script>
+</body>
+</html>
